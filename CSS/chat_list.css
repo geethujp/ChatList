@@ -1,0 +1,123 @@
+#chat_list_wrapper {
+    position: absolute;
+    right: 0px;
+    height: 500px;
+    width: 250px;
+    border: 2px solid #3B5998;
+    padding: 5px;
+    background-color: #FFF;
+    bottom: 0px;
+}
+#chat_list_header {
+    position: relative;
+    top: -7px;
+    left: -7px;
+    padding: 5px;
+    height: 25px;
+    width: 250px;
+    background-color: #3B5998;
+    color: #FFF;
+}
+
+#chat_list_closeBtn {
+    position: relative;
+    float: right;
+    color: #fff;
+}
+
+.chat_list_friend_wrapper {
+    position: relative;
+    top: -7px;
+    left: -5px;
+    padding: 5px;
+    height: 35px;
+    width: 250px;
+    background-color: #FFF;
+}
+.chat_list_friend_image {
+    position: absolute;
+    padding: 5px;
+    height: 25px;
+    width: 40px;
+    left: 0;
+}
+
+.chat_list_friend_name {
+    position: absolute;
+    left: 40px;
+    padding: 5px;
+    height: 25px;
+    top: 10px;
+    font-size: 14px;
+    width: 150px;
+}
+
+.friend_availability_indicator {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    right: 0;
+}
+
+.chat_list_friend_image img {
+    height: 25px;
+    width: 25px;
+}
+
+.friend_availability_indicator img {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#chat_box_footer {
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    width: 250px;
+    left: 0px;
+    padding: 5px;
+}
+#chat_box_searchBtn {
+    position: absolute;
+    padding: 5px;
+    height: 25px;
+    width: 30px;
+    left: 0;
+}
+
+#chat_box_searchBox {
+    position: absolute;
+    padding: 5px;
+    height: 25px;
+    width: 100px;
+    left: 30px;
+}
+
+#chat_box_settingsBtn {
+    position: absolute;
+    padding: 5px;
+    height: 25px;
+    width: 30px;
+    right: 0;
+}
+
+#chat_box_searchBtn img {
+    position: absolute;
+    height: 25;
+    width: 25;
+}
+
+#chat_box_settingsBtn img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 15;
+    width: 15;
+}
+
+input {
+    width: 197px;
+}
